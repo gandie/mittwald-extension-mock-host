@@ -10,6 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@mittwald/flow-remote-core": "^0.2.0-alpha.661",
+    "@mittwald/flow-remote-react-components": "^0.2.0-alpha.661",
+    "@mittwald/flow-remote-react-renderer": "^0.2.0-alpha.661",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
