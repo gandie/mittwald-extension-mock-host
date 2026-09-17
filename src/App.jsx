@@ -45,6 +45,7 @@ function App() {
       }}>
         {/* Host renders an iframe that loads the extension */}
         <RemoteRenderer
+          timeoutMs={60000}
           src={extensionUrl}
           extBridgeImplementation={{
             getConfig: async () => ({
