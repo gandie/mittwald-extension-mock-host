@@ -1,11 +1,9 @@
-import { useState, useRef, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { RemoteReceiver } from "@mittwald/flow-remote-core";
 import { RemoteRenderer } from "@mittwald/flow-remote-react-renderer";
 import "@mittwald/flow-react-components/all.css";
 
 // Prepare the bridge instance
-const receiver = new RemoteReceiver();
-
 const DEFAULT_EXTENSION_URL = "http://localhost:3000";
 
 function App() {
@@ -16,8 +14,6 @@ function App() {
   }, []);
 
   const [extensionUrl, setExtensionUrl] = useState(DEFAULT_EXTENSION_URL);
-  const iframeRef = useRef<HTMLIFrameElement>(null);
-
 
   return (
     <div style={{ padding: 24 }}>
