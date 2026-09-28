@@ -10,10 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@mittwald/flow-react-components": "0.2.0-alpha.737",
-    "@mittwald/flow-remote-core": "^0.2.0-alpha.661",
-    "@mittwald/flow-remote-react-components": "^0.2.0-alpha.661",
-    "@mittwald/flow-remote-react-renderer": "^0.2.0-alpha.661",
+    "@mittwald/flow-react-components": "^1.3.5",
+    "@mittwald/flow-remote-core": "^1.3.5",
+    "@mittwald/flow-remote-react-components": "^1.3.5",
+    "@mittwald/flow-remote-react-renderer": "^1.3.5",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
